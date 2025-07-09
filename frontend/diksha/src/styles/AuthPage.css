@@ -1,0 +1,59 @@
+.auth-page {
+  background-image: url('../assets/diksha-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-card {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.auth-logo {
+  height: 60px;
+  margin-bottom: 1rem;
+}
+
+.auth-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.auth-card input,
+.auth-card select {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.auth-card button {
+  padding: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+  background-color: #FF6238;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.auth-toggle {
+  margin-top: 1rem;
+}
+
+.auth-toggle span {
+  color: #FF6238;
+  cursor: pointer;
+  font-weight: bold;
+}
