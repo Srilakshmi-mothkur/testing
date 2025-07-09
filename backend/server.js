@@ -19,7 +19,7 @@ connectDB()
 const app = express()
 app.use(express.json())
 app.use(cors ({
-    origin: "*",
+    origin: "'https://testing-frontend-one.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
     allowedHeaders: ['Content-type', 'Authorization']
 }))
